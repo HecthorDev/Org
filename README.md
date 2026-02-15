@@ -1,7 +1,5 @@
 # Org
 
-![Project Banner](https://raw.githubusercontent.com/HecthorDev/Org/main/public/banner.png)
-
 **[English](#english)** | **[Español](#español)**
 
 ---
