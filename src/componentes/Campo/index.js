@@ -4,7 +4,6 @@ import "./Campo.css"
 const Campo = (props) => {
     const placeholderModificado = `${props.placeholder}...`
 
-    //Destructuracion 
     const { type = "text" } = props
 
     const manejarCambio = (e) => {

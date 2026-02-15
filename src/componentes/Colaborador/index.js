@@ -5,8 +5,6 @@ const Colaborador = (props) => {
     const { nombre, puesto, foto, equipo, id, fav } = props.datos
     const { colorPrimario, eliminarColaborador, like } = props
 
-    // condicion ? verdadero : falso
-
     return <div className="colaborador">
         <AiFillCloseCircle className="eliminar" onClick={() => eliminarColaborador(id)} />
         <div className="encabezado" style={{ backgroundColor: colorPrimario }}>

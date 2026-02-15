@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Org
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Banner](https://raw.githubusercontent.com/HecthorDev/Org/main/public/banner.png)
 
-## Available Scripts
+**[English](#english)** | **[Español](#español)**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+<a name="english"></a>
+## 🇬🇧 English
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Project Overview
+**Org** is a React application designed to help manage teams and collaborators within an organization. It allows users to create teams, add members, and visualize the organizational structure in an intuitive interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Features
+- **Team Management:** Create and customize teams with specific colors.
+- **Collaborator Registration:** Add new members with their role, photo, and team assignment.
+- **Interactive UI:** Toggle visibility of the registration form.
+- **Favorites:** Mark collaborators as favorites.
+- **Dynamic Styling:** Team sections dynamically adapt to their assigned colors.
 
-### `npm test`
+### Technologies
+- **React** (Create React App)
+- **CSS3** (Modular & Global styles)
+- **UUID** (For unique ID generation)
+- **Vercel** (Deployment)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/HecthorDev/Org.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Org
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
 ### Deployment
+This project is configured for deployment on **Vercel**.
+- Connect your GitHub repository to Vercel.
+- The `vercel.json` file ensures proper routing for the single-page application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+<a name="español"></a>
+## 🇪🇸 Español
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Resumen del Proyecto
+**Org** es una aplicación React diseñada para ayudar a gestionar equipos y colaboradores dentro de una organización. Permite a los usuarios crear equipos, agregar miembros y visualizar la estructura organizativa en una interfaz intuitiva.
+
+### Características
+- **Gestión de Equipos:** Crea y personaliza equipos con colores específicos.
+- **Registro de Colaboradores:** Agrega nuevos miembros con su rol, foto y asignación de equipo.
+- **UI Interactiva:** Alterna la visibilidad del formulario de registro.
+- **Favoritos:** Marca colaboradores como favoritos.
+- **Estilos Dinámicos:** Las secciones de los equipos se adaptan dinámicamente a sus colores asignados.
+
+### Tecnologías
+- **React** (Create React App)
+- **CSS3** (Estilos Modulares y Globales)
+- **UUID** (Para generación de IDs únicos)
+- **Vercel** (Despliegue)
+
+### Instalación
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/HecthorDev/Org.git
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd Org
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm start
+   ```
+
+### Despliegue
+Este proyecto está configurado para su despliegue en **Vercel**.
+- Conecta tu repositorio de GitHub a Vercel.
+- El archivo `vercel.json` asegura el enrutamiento adecuado para la aplicación de página única (SPA).
